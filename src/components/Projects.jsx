@@ -7,7 +7,7 @@ export default function Projects() {
     const projects = [
         {
             title: "Employee Management Project",
-            description: "Employee Operations Management System - Full stack web application with Spring Boot, JSON Web Token, MySQL, React and Tailwind-CSS.",
+            description: "Employee Operations Management System - Full stack web application with Spring Boot, JSON Web Token, MySQL, React+Vite with Tailwind-CSS.",
             image: EOMSImage,
             link: "http://144.24.101.223/",
         },
