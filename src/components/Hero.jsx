@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hero() {
     return (
-        <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-100 via-gray-100 to-blue-100">
+        <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-100 via-gray-50 to-blue-100">
             <div className="text-center px-4">
                 <h1 className="text-5xl font-bold text-gray-800 mb-4">Hi, I'm Chathuranga™</h1>
                 <p className="text-xl text-gray-700 mb-6">Student at UoVT | B.Tech in Multimedia & Web | Technology Enthusiast</p>
