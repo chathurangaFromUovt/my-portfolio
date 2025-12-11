@@ -18,10 +18,11 @@ export default function Contact() {
     return (
         <section id="contact" className="py-16 bg-gray-50">
             <div className="container mx-auto px-6 max-w-3xl">
-                <h2 className="text-4xl font-bold text-center mb-12">Contact Me</h2>
+                <h2 className="text-4xl font-bold text-center mb-2">Contact Me</h2>
+                <p className="text-sm text-center mb-12">chathurangafromuovt@gmail.com</p>
 
                 {submitted ? (
-                    <p className="text-green-500 text-center text-lg">Thank you! I will get back to you soon.</p>
+                    <p className="text-blue-500 text-center font-bold text-lg">Thank you! I will get back to you soon.</p>
                 ) : (
                     <form onSubmit={handleSubmit} className="space-y-6">
                         <div>
@@ -60,7 +61,7 @@ export default function Contact() {
                         <div className="text-center">
                             <button
                                 type="submit"
-                                className="bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600 transition"
+                                className="font-bold bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600 transition"
                             >
                                 Send Message
                             </button>

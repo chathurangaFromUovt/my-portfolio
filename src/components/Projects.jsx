@@ -6,14 +6,14 @@ import VPSImage from '../assets/vps.png';   // placeholder image
 export default function Projects() {
     const projects = [
         {
-            title: "Operations Management Project",
-            description: "Employee Operations Management System - Full stack web application with Spring Boot, MySQL and React.",
+            title: "Employee Management Project",
+            description: "Employee Operations Management System - Full stack web application with Spring Boot, JSON Web Token, MySQL, React and Tailwind-CSS.",
             image: EOMSImage,
             link: "http://144.24.101.223/",
         },
         {
-            title: "Virtual Private Sever Configuration",
-            description: "A Virtual Private Sever Configurations on a Cloud Storage Provider. Showcasing DevOps and CI/CD skills.",
+            title: "Virtual Private Server Configuration",
+            description: "Virtual Private Server configuration on a cloud service provider using Docker and GitHub Actions, including server setup and automated deployments, showcasing DevOps and CI/CD skills.",
             image: VPSImage,
             link: "https://github.com/chathurangaFromUovt/my-portfolio",
         },
@@ -23,7 +23,7 @@ export default function Projects() {
         <section id="projects" className="bg-gray-50 py-16">
             <div className="container mx-auto px-6">
                 <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
-                <div className="grid md:grid-cols-2 gap-8">
+                <div className="grid md:grid-cols-2 gap-8 text-center">
                     {projects.map((project, index) => (
                         <ProjectCard
                             key={index}
