@@ -9,13 +9,13 @@ export default function Projects() {
             title: "Operations Management Project",
             description: "Employee Operations Management System - Full stack web application with Spring Boot, MySQL and React.",
             image: EOMSImage,
-            link: "http://your-eoms-live-link.com",
+            link: "http://144.24.101.223/",
         },
         {
             title: "Virtual Private Sever Configuration",
             description: "A Virtual Private Sever Configurations on a Cloud Storage Provider. Showcasing DevOps and CI/CD skills.",
             image: VPSImage,
-            link: "http://your-vps-live-link.com",
+            link: "https://github.com/chathurangaFromUovt/my-portfolio",
         },
     ];
 
