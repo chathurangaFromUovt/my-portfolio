@@ -34,4 +34,8 @@ jobs:
             docker stop portfolio || true
             docker rm portfolio || true
             docker run -d --name portfolio -p 80:80 ${{ secrets.DOCKER_USERNAME }}/my-portfolio:latest
+            docker stop portfolio || true
+            docker rm portfolio || true
+            docker pull ${{ secrets.DOCKER_USERNAME }}/my-portfolio:latest
+            docker run -d --name portfolio -p 80:80 ${{ secrets.DOCKER_USERNAME }}/my-portfolio:latest
             
