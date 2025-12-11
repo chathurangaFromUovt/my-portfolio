@@ -12,7 +12,7 @@ export default function Projects() {
             link: "http://144.24.101.223/",
         },
         {
-            title: "V.P.S. Configuration",
+            title: "V. P. S. Configuration",
             description: "Virtual Private Server configuration - Docker and GitHub Actions, including server setup and automated deployments, showcasing DevOps and CI/CD skills.",
             image: VPSImage,
             link: "https://github.com/chathurangaFromUovt/my-portfolio",
