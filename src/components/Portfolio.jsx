@@ -115,12 +115,12 @@ export default function Portfolio() {
                     <div className="inline-block mb-4 px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium animate-bounce">
                         🎓 Open to Opportunities
                     </div>
+
                     <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-clip-text text-transparent pb-1">
-                        <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r bg-clip-text text-transparent">
+                        <h1 className="text-5xl sm:text-5xl md:text-7xl lg:text-7xl xl:text-8xl font-bold mb-6 bg-gradient-to-r bg-clip-text text-transparent">
                             Hi, I'm Chathuranga™
                         </h1>
                     </div>
-
 
                     <p className="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto">
                         Aspiring Developer & Technology Enthusiast
