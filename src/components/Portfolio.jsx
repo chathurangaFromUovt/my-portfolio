@@ -30,14 +30,14 @@ export default function Portfolio() {
         {
             title: "Management Systems",
             description: "Full-stack web application with Spring Boot, JWT authentication, MySQL, and React+Vite with Tailwind CSS. Features complete CRUD operations and secure user management.",
-            image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+            image: "https://images.unsplash.com/photo-1619410283995-43d9134e7656?w=800&h=600&fit=crop",
             link: "http://144.24.101.223/",
             tags: ["Spring Boot", "React", "MySQL", "JWT"]
         },
         {
             title: "Server Configurations",
             description: "Professional DevOps setup featuring Docker containerization, GitHub Actions CI/CD pipeline, and automated deployment workflows demonstrating modern infrastructure practices.",
-            image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop",
+            image: "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&h=600&fit=crop",
             link: "https://github.com/chathurangaFromUovt/my-portfolio",
             tags: ["Docker", "CI/CD", "DevOps", "Automation"]
         }
@@ -165,7 +165,7 @@ export default function Portfolio() {
             {/* Projects Section */}
             <section id="projects" className="py-20 bg-white">
                 <div className="container mx-auto px-6">
-                    <div className="text-center mb-16">
+                    <div className="text-center mb-16 bg-gradient-to-r bg-clip-text from-blue-600 to-purple-600">
                         <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                             Featured Projects
                         </h2>
