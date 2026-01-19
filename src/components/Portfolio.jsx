@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HeartHandshake, WandSparkles, Github, Linkedin, Mail, Code, Palette, Server, ChevronDown, ExternalLink, Menu, X } from 'lucide-react';
+import { HeartHandshake, WandSparkles, Github, Linkedin, Mail, Code, Palette, Server, ChevronDown, ExternalLink, Menu, X, BookOpen, Download } from 'lucide-react';
 
 export default function Portfolio() {
     const [activeSection, setActiveSection] = useState('home');
@@ -10,7 +10,7 @@ export default function Portfolio() {
         const handleScroll = () => {
             setScrolled(window.scrollY > 50);
 
-            const sections = ['home', 'projects', 'about', 'contact'];
+            const sections = ['home', 'projects', 'about', 'publications', 'contact'];
             const current = sections.find(section => {
                 const element = document.getElementById(section);
                 if (element) {
@@ -63,7 +63,7 @@ export default function Portfolio() {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex space-x-8">
-                        {['home', 'projects', 'about', 'contact'].map((item) => (
+                        {['home', 'projects', 'publications', 'about', 'contact'].map((item) => (
                             <button
                                 key={item}
                                 onClick={() => scrollToSection(item)}
@@ -90,7 +90,7 @@ export default function Portfolio() {
                 {/* Mobile Menu */}
                 {isMenuOpen && (
                     <div className="md:hidden bg-white border-t mt-4 py-4 px-6 space-y-4">
-                        {['home', 'projects', 'about', 'contact'].map((item) => (
+                        {['home', 'projects', 'publications', 'about', 'contact'].map((item) => (
                             <button
                                 key={item}
                                 onClick={() => scrollToSection(item)}
@@ -210,6 +210,57 @@ export default function Portfolio() {
                                 </div>
                             </div>
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Publications Section */}
+            <section id="publications" className="py-20 pt-2 bg-white">
+                <div className="container mx-auto px-6">
+                    <div className="max-w-4xl mx-auto">
+                        <h2 className="text-5xl font-bold text-center mb-20 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                            Publications
+                        </h2>
+
+                        <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-xl p-8 md:p-12 hover:shadow-2xl transition-shadow">
+                            <div className="flex items-start gap-6">
+                                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl flex items-center justify-center text-white flex-shrink-0">
+                                    <BookOpen size={32} />
+                                </div>
+
+                                <div className="flex-1">
+                                    <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-3">
+                                        Self-Learning Journey
+                                    </h3>
+
+                                    <p className="text-gray-700 text-lg leading-relaxed mb-6">
+                                        A comprehensive guide documenting my personal journey in technology and self-directed learning. This book covers practical insights, challenges faced, and lessons learned throughout my educational path in web development, multimedia, and DevOps.
+                                    </p>
+
+                                    <div className="flex flex-wrap gap-3">
+                                        <a
+                                            href="http://144.24.101.223/pdfs/self-learning-journey.pdf"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all shadow-md"
+                                        >
+                                            <Download size={20} />
+                                            Download PDF
+                                        </a>
+
+                                        <a
+                                            href="http://144.24.101.223/pdfs/self-learning-journey.pdf"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="inline-flex items-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 border-2 border-blue-600 transform hover:scale-105 transition-all"
+                                        >
+                                            <ExternalLink size={20} />
+                                            View Online
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
