@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HeartHandshake, WandSparkles, Github, Linkedin, Mail, Code, Palette, Server, ChevronDown, ExternalLink, Menu, X, BookOpen, Download } from 'lucide-react';
+import {HeartHandshake, WandSparkles, Github, Linkedin, Mail, Code, Palette, Server, ChevronDown, ExternalLink, Menu, X, BookOpen, Download } from 'lucide-react';
 
 export default function Portfolio() {
     const [activeSection, setActiveSection] = useState('home');
@@ -238,26 +238,30 @@ export default function Portfolio() {
                                     </p>
 
                                     <div className="flex flex-wrap gap-3">
+
                                         <a
-                                            href="http://144.24.101.223/pdfs/self-learning-journey.pdf"
+                                            href="http://144.24.101.223/pdfs/self-learning-journey.pdf?download"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all shadow-md"
+                                            className="max-w-[200px] flex-1 inline-flex items-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 border-2 border-blue-600 transform hover:scale-105 transition-all"
                                         >
-                                            <Download size={20} />
-                                            Download PDF
+                                            <ExternalLink size={20} />
+                                            View Online
                                         </a>
 
                                         <a
                                             href="http://144.24.101.223/pdfs/self-learning-journey.pdf"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="inline-flex items-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 border-2 border-blue-600 transform hover:scale-105 transition-all"
+                                            download="self-learning-journey.pdf"
+                                            className="max-w-[200px] flex-1 inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all shadow-md"
                                         >
-                                            <ExternalLink size={20} />
-                                            View Online
+                                            <Download size={20} />
+                                            Download PDF
                                         </a>
+
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -349,10 +353,10 @@ export default function Portfolio() {
             <footer className="bg-gray-900 text-white py-8">
                 <div className="container mx-auto px-6 text-center">
                     <p className="text-gray-400">
-                        © 2025 Chathuranga™ | Built with React & Tailwind
+                        © <span>{new Date().getFullYear()}</span> Chathuranga™ | Built with React & Tailwind
                     </p>
                     <p className="text-gray-500 text-sm mt-2 flex items-center justify-center gap-2">
-                        <HeartHandshake className="w-4 h-4" />
+                        <HeartHandshake className="w-5 h-5" />
                         Thanks for stopping by !!!
                     </p>
 
