@@ -251,8 +251,8 @@ export default function Portfolio() {
 
                                         <a
                                             href="http://144.24.101.223/pdfs/self-learning-journey.pdf"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
+                                            // target="_blank"
+                                            // rel="noopener noreferrer"
                                             download="self-learning-journey.pdf"
                                             className="max-w-[200px] flex-1 inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all shadow-md"
                                         >
