@@ -116,7 +116,7 @@ export default function Portfolio() {
                         🎓 Open to Opportunities
                     </div>
 
-                    <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-clip-text text-transparent pb-1">
+                    <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-sky-600 to-blue-600 bg-clip-text text-transparent pb-1">
                         <h1 className="text-5xl sm:text-5xl md:text-7xl lg:text-7xl xl:text-8xl font-bold mb-6 bg-gradient-to-r bg-clip-text text-transparent">
                             Hi, I'm Chathuranga™
                         </h1>
@@ -132,7 +132,7 @@ export default function Portfolio() {
                     <div className="flex flex-wrap justify-center gap-4 mb-12">
                         <button
                             onClick={() => scrollToSection('projects')}
-                            className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-bold hover:shadow-lg transform hover:scale-105 transition-all"
+                            className="bg-gradient-to-r from-blue-600 to-sky-600 text-white px-8 py-3 rounded-full font-bold hover:shadow-lg transform hover:scale-105 transition-all"
                         >
                             View My Work
                         </button>
@@ -165,8 +165,8 @@ export default function Portfolio() {
             {/* Projects Section */}
             <section id="projects" className="py-20 bg-white">
                 <div className="container mx-auto px-6">
-                    <div className="text-center mb-16 bg-gradient-to-r bg-clip-text from-blue-600 to-purple-600">
-                        <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                    <div className="text-center mb-16 bg-gradient-to-r bg-clip-text from-blue-600 to-sky-600">
+                        <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-sky-600 bg-clip-text text-transparent">
                             Featured Projects
                         </h2>
                         <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -202,7 +202,7 @@ export default function Portfolio() {
                                         href={project.link}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="inline-flex items-center space-x-2 text-blue-600 font-bold hover:text-purple-600 transition-colors"
+                                        className="inline-flex items-center space-x-2 text-blue-600 font-bold hover:text-sky-600 transition-colors"
                                     >
                                         <span>View Project</span>
                                         <ExternalLink className="w-4 h-4" />
@@ -218,13 +218,13 @@ export default function Portfolio() {
             <section id="publications" className="py-20 pt-2 bg-white">
                 <div className="container mx-auto px-6">
                     <div className="max-w-4xl mx-auto">
-                        <h2 className="text-5xl font-bold text-center mb-20 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                        <h2 className="text-5xl font-bold text-center mb-20 bg-gradient-to-r from-blue-600 to-sky-600 bg-clip-text text-transparent">
                             Publications
                         </h2>
 
-                        <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-xl p-8 md:p-12 hover:shadow-2xl transition-shadow">
+                        <div className="bg-gradient-to-br from-blue-50 to-sky-50 rounded-2xl shadow-xl p-8 md:p-12 hover:shadow-2xl transition-shadow">
                             <div className="flex items-start gap-6">
-                                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl flex items-center justify-center text-white flex-shrink-0">
+                                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-sky-500 rounded-xl flex items-center justify-center text-white flex-shrink-0">
                                     <BookOpen size={32} />
                                 </div>
 
@@ -254,7 +254,7 @@ export default function Portfolio() {
                                             // target="_blank"
                                             // rel="noopener noreferrer"
                                             download="self-learning-journey.pdf"
-                                            className="max-w-[200px] flex-1 inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all shadow-md"
+                                            className="max-w-[200px] flex-1 inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-sky-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-sky-700 transform hover:scale-105 transition-all shadow-md"
                                         >
                                             <Download size={20} />
                                             Download PDF
@@ -270,10 +270,10 @@ export default function Portfolio() {
             </section>
 
             {/* About Section */}
-            <section id="about" className="py-20 bg-gradient-to-br from-blue-50 to-purple-50">
+            <section id="about" className="py-20 bg-gradient-to-br from-blue-50 to-sky-50">
                 <div className="container mx-auto px-6">
                     <div className="max-w-4xl mx-auto">
-                        <h2 className="text-5xl font-bold text-center mb-16 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                        <h2 className="text-5xl font-bold text-center mb-16 bg-gradient-to-r from-blue-600 to-sky-600 bg-clip-text text-transparent">
                             About Me
                         </h2>
 
@@ -295,7 +295,7 @@ export default function Portfolio() {
                                     key={index}
                                     className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all"
                                 >
-                                    <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl flex items-center justify-center text-white mb-4">
+                                    <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-sky-500 rounded-xl flex items-center justify-center text-white mb-4">
                                         {skill.icon}
                                     </div>
                                     <h3 className="text-xl font-bold mb-2 text-gray-800">{skill.name}</h3>
@@ -312,7 +312,7 @@ export default function Portfolio() {
                 <div className="container mx-auto px-6">
                     <div className="max-w-3xl mx-auto">
                         <div className="text-center mb-12">
-                            <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                            <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-sky-600 bg-clip-text text-transparent">
                                 Let's Connect
                             </h2>
                             <p className="text-gray-600 text-lg">
@@ -320,16 +320,16 @@ export default function Portfolio() {
                             </p>
                         </div>
 
-                        <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 md:p-12 shadow-xl">
+                        <div className="bg-gradient-to-br from-blue-50 to-sky-50 rounded-2xl p-8 md:p-12 shadow-xl">
                             <div className="flex flex-col items-center text-center space-y-6">
-                                <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center">
+                                <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-sky-500 rounded-full flex items-center justify-center">
                                     <Mail className="w-10 h-10 text-white" />
                                 </div>
                                 <div>
                                     <h3 className="text-2xl font-bold mb-2 text-gray-800">Email Me</h3>
                                     <a
                                         href="mailto:chathurangafromuovt@gmail.com"
-                                        className="text-blue-600 text-lg font-medium hover:text-purple-600 transition-colors"
+                                        className="text-blue-600 text-lg font-medium hover:text-sky-600 transition-colors"
                                     >
                                         chathurangafromuovt@gmail.com
                                     </a>
@@ -339,7 +339,7 @@ export default function Portfolio() {
                                 </p>
                                 <a
                                     href="mailto:chathurangafromuovt@gmail.com"
-                                    className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-bold hover:shadow-lg transform hover:scale-105 transition-all"
+                                    className="bg-gradient-to-r from-blue-600 to-sky-600 text-white px-8 py-3 rounded-full font-bold hover:shadow-lg transform hover:scale-105 transition-all"
                                 >
                                     Send Message
                                 </a>
