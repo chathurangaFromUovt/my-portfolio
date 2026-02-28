@@ -45,7 +45,7 @@ export default function Portfolio() {
             title: "💡 CMS & WordPress",
             description: "A fully functional website built with WordPress, showcasing my ability to work with Content Management Systems. Includes custom theme configuration, plugin integration, and responsive design for an optimized user experience.",
             image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&h=600&fit=crop",
-            link: "#",
+            link: "http://139.59.44.175/",
             tags: ["WordPress", "CMS", "PHP", "Responsive Design"]
         },
         {
