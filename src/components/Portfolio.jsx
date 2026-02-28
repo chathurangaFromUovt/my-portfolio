@@ -66,7 +66,7 @@ export default function Portfolio() {
             title: "🎨 Digital Art",
             description: "Crafted visual designs using Adobe Illustrator, Photoshop, and InDesign, spanning vector illustration, photo manipulation, and print-ready layouts. Also experienced in 3D animation, creating models, rigs, and animated sequences using 3D Studio Max and Maya.",
             image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=600&fit=crop",
-            link: "https://www.canva.com/design/DAHCnGDWSgc/BYXb8qMgtl4Ja1ywTtdx4g/edit?utm_content=DAHCnGDWSgc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+            link: "https://youtu.be/A_4BiM_tZZ0",
             tags: ["Adobe Illustrator", "Photoshop", "InDesign", "Autodesk 3ds Max"]
         }
     ];
