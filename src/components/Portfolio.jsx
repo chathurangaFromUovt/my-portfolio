@@ -28,42 +28,42 @@ export default function Portfolio() {
 
     const projects = [
         {
-            title: "⚙️ Full-Stack Solutions",
+            title: "⚙️ Full-Stack Solution",
             description: "Full-stack web application with Spring Boot, JWT authentication, MySQL, and React+Vite with Tailwind CSS. Features complete CRUD operations and secure user management.",
             image: "https://images.unsplash.com/photo-1619410283995-43d9134e7656?w=800&h=600&fit=crop",
             link: "http://144.24.101.223/",
             tags: ["Spring Boot", "React", "MySQL", "JWT"]
         },
         {
-            title: "🐳 DevOps & Deployments",
+            title: "🐳 DevOps Deployment",
             description: "Professional DevOps setup featuring Docker containerization, GitHub Actions CI/CD pipeline, and automated deployment workflows demonstrating modern infrastructure practices.",
             image: "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&h=600&fit=crop",
             link: "https://github.com/chathurangaFromUovt/my-portfolio",
             tags: ["Docker", "CI/CD", "DevOps", "Automation"]
         },
         {
-            title: "💡 CMS Platforms",
+            title: "💡 CMS Platform",
             description: "A fully functional website built with WordPress, showcasing my ability to work with Content Management Systems. Includes custom theme configuration, plugin integration, and responsive design for an optimized user experience.",
             image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&h=600&fit=crop",
             link: "http://139.59.44.175/",
             tags: ["WordPress", "CMS", "PHP", "Responsive Design"]
         },
         {
-            title: "🎬 Video productions",
+            title: "🎬 Video production",
             description: "Analysed RAW footage, selected precise cuts and suitable transitions using Adobe Premiere, and crafted a polished film following a given screenplay, demonstrating strong storytelling and post-production skills.",
             image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=600&fit=crop",
             link: "https://youtu.be/y0Uw9x7o0VQ",
             tags: ["Adobe Premiere", "Video Editing", "Post-Production", "Storytelling"]
         },
         {
-            title: "🎸 Audio productions",
+            title: "🎸 Audio production",
             description: "Composed a complete song track in Cubase, hand-picking virtual instruments, recording each part live using real instruments, then taking the production through full editing, mixing, and mastering stages.",
             image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&h=600&fit=crop",
             link: "https://youtu.be/UHFpzv3wsJc",
             tags: ["Cubase", "Audio Production", "Mixing & Mastering", "Live Recording"]
         },
         {
-            title: "🎨 Digital Arts",
+            title: "🎨 Digital Art",
             description: "Crafted visual designs using Adobe Illustrator, Photoshop, and InDesign, spanning vector illustration, photo manipulation, and print-ready layouts. Also experienced in 3D animation, creating models, rigs, and animated sequences using 3D Studio Max and Maya.",
             image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=600&fit=crop",
             link: "https://www.canva.com/design/DAHCnGDWSgc/BYXb8qMgtl4Ja1ywTtdx4g/edit?utm_content=DAHCnGDWSgc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
@@ -72,12 +72,12 @@ export default function Portfolio() {
     ];
 
     const skills = [
-        { emoji: "⚙️", name: "Full-Stack Solutions", desc: "React, Spring Boot, MySQL, JWT" },
-        { emoji: "🐳", name: "DevOps & Deployments", desc: "Docker, CI/CD, GitHub Actions" },
-        { emoji: "💡", name: "CMS Platforms", desc: "Theme Config, Plugins, Responsive Design" },
-        { emoji: "🎬", name: "Video Productions", desc: "Adobe Premiere, Cuts, Transitions" },
-        { emoji: "🎸", name: "Audio Productions", desc: "Cubase, Mixing, Mastering, Live Recording" },
-        { emoji: "🎨", name: "Digital Arts", desc: "Illustrator, Photoshop, InDesign, Maya, 3Ds Max" },
+        { emoji: "⚙️", name: "Full-Stack Solution", desc: "React, Spring Boot, MySQL, JWT" },
+        { emoji: "🐳", name: "DevOps Deployment", desc: "Docker, CI/CD, GitHub Actions" },
+        { emoji: "💡", name: "CMS Platform", desc: "Theme Config, Plugins, Responsive Design" },
+        { emoji: "🎬", name: "Video Production", desc: "Adobe Premiere, Cuts, Transitions" },
+        { emoji: "🎸", name: "Audio Production", desc: "Cubase, Mixing, Mastering, Live Recording" },
+        { emoji: "🎨", name: "Digital Art", desc: "Illustrator, Photoshop, InDesign, Maya, 3Ds Max" },
     ];
 
     const scrollToSection = (id) => {
