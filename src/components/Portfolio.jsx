@@ -68,6 +68,13 @@ export default function Portfolio() {
             image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=600&fit=crop",
             link: "https://www.canva.com/design/DAHEu-QMacA/QiWveJgUNkCgl4Wm07faxA/edit?utm_content=DAHEu-QMacA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
             tags: ["Adobe Illustrator", "Photoshop", "InDesign", "Autodesk 3ds Max"]
+        },
+        {
+            title: "💻 Personal Dashboard",
+            description: "Deployed a full-stack personal dashboard on Oracle Cloud, featuring real-time weather, VPS system metrics, StrongSwan VPN monitoring with live traffic stats, bookmarks, and to-do list. Built with Python Flask, SQLite, Nginx, and systemd on Linux.",
+            image: "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&h=600&fit=crop",
+            link: "http://92.4.67.90/",
+            tags: ["Python Flask", "SQLite", "Nginx", "Oracle Cloud", "Ubuntu", "VPN"]
         }
     ];
 
@@ -309,17 +316,17 @@ export default function Portfolio() {
                         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-12">
                             <p className="text-gray-700 text-lg leading-relaxed mb-6">
                                 I'm a passionate student at University of Vocational Technology Sri Lanka, pursuing a B.Tech degree in Multimedia & Web Technology. My journey is driven by a deep curiosity for both technology and creativity, and the desire to build things that leave a lasting impression.
-                            </p>
+                                </p>
                             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                                On the technical side, I develop full-stack web applications using Spring Boot and React, manage databases, implement secure authentication, and deploy projects through Docker and CI/CD pipelines. I'm also experienced in building and managing websites with Content Management Systems like WordPress.
-                            </p>
+                                On the technical side, I develop full-stack web applications using Spring Boot and React, manage databases, implement secure authentication, and deploy projects through Docker and CI/CD pipelines. I've also built and deployed a full-stack personal dashboard on Oracle Cloud, integrating real-time system metrics, VPN monitoring, and live weather data using Python Flask and Nginx. I'm also experienced in building and managing websites with Content Management Systems like WordPress.
+                                </p>
                             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                                What makes my journey unique is the creative dimension I bring alongside my technical skills. I edit films using Adobe Premiere, compose and produce complete song tracks in Cubase, recording live instruments myself, and create visual artwork using Adobe Illustrator, Photoshop, and InDesign. I also have hands-on experience in 3D modelling and animation with 3D Studio Max and Maya.
-                            </p>
+                                What makes my journey unique is the creative dimension I bring alongside my technical skills. I edit films using Adobe Premiere, compose and produce complete song tracks in Cubase-recording live instruments myself, and create visual artwork using Adobe Illustrator, Photoshop, and InDesign. I also have hands-on experience in 3D modelling and animation with 3D Studio Max and Maya.
+                                </p>
 
                             <p className="text-gray-700 text-lg leading-relaxed">
-                                My mission is to bridge the gap between technology and creativity, crafting experiences that are not only functional and robust, but also visually compelling and emotionally engaging. I'm always learning, always building, and always pushing for better.
-                            </p>
+                                My mission is to bridge the gap between technology and creativity-crafting experiences that are not only functional and robust, but also visually compelling and emotionally engaging. I'm always learning, always building, and always pushing for better.
+                                </p>
                         </div>
 
                         <div className="grid md:grid-cols-3 gap-6">
@@ -402,4 +409,3 @@ export default function Portfolio() {
         </div>
     );
 }
-
